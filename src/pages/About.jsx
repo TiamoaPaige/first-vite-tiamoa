@@ -1,15 +1,4 @@
-import { useState } from 'react'
-
-import './App.css'
-
-function About() {
-  // const [count, setCount] = useState(0)
-
-  return (
-    <>
-     <p>This is my about page!</p>
-    </>
-  )
+// pages/About.jsx
+export default function About() {
+  return <h1>About Us</h1>;
 }
-
-export default About 
